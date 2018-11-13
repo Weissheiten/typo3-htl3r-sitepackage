@@ -1,0 +1,19 @@
+{
+    "name": "htl3r/htl3r-demo-sitepackage",
+    "type": "typo3-cms-extension",
+    "description": "This package is a demonstration site package for the HTL3R",
+    "homepage": "https://www.htl.rennweg.at",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5",
+        "typo3/cms-rte-ckeditor": "^9.5",
+        "typo3/cms-fluid-styled-content": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Htl3r\\Htl3rDemoSitepackage\\": "Classes/"
+        }
+    }
+}
